@@ -21,3 +21,4 @@ wget
 wireless_tools
 wl-clipboard
 rofi
+stow

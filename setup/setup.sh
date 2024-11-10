@@ -13,3 +13,6 @@ sudo cp $curdir/pacman.conf /etc/pacman.conf
 # Install packages
 sudo pacman -Sy
 cat $curdir/packages.txt | xargs sudo pacman -S --needed --noconfirm
+
+cd ..
+stow dotfiles
